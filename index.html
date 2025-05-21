@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1d27eaaa7b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/CSS/style.css">
     <title>Document</title>
 </head>
 <body>
 <div class="page1">
- <div class="navbar">
+ <div class="topnav" id="mytopnav">
     <ul class="list">
         <li><a href="index2.html">Our plans</a></li>
-        <li>Weekly menu</li>
-        <li>How it works</li>
+        <li><a href="#">Weekly menu</a></li>
+        <li><a href="#">How it works</a></li>
         <button>Log in</button>
-        <button style="background-color: orangered; color: white; font-size: 12px; width: 30%;">Choose your plan</button>
+        <button style="background-color: orangered; color: white; font-size: 20px; width: 25%; position: relative; left: 10%;">Choose your plan</button>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
     </ul>
   </div>
  <div class="container">
@@ -301,5 +303,6 @@
         </div>
     </div>
  </div>
+ <script src="/javascript/main.js"></script>
 </body>
 </html>
